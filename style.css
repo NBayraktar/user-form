@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+fieldset {
+  background-color: rgba(186, 245, 222, 0.5);
+  border-radius: 0.3em;
+  border: none;
+  box-shadow: 5px 10px 15px 5px #888888;
+  margin: 5em 0;
+}
+
+legend {
+  margin-left: 1.1em;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+label {
+  margin-left: 0.4em;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.wraper {
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin: 1em 2em;
+}
+
+.inp-box {
+  width: 95%;
+  padding: 0.4em;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 0.1em;
+  box-shadow: 5px 10px 15px 5px #888888;
+  background-color: rgba(235, 235, 235, 0.5);
+  outline: none;
+}
+
+.wrap-sub-res {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.btn {
+  width: 95%;
+  border: none;
+  outline: none;
+  border-radius: 0.3em;
+  background: #17a57a;
+  color: #fff;
+  padding: 0.5em;
+  box-shadow: 5px 10px 15px 5px #888888;
+  font-size: 0.9em;
+}
+
+.btn-2 {
+  background: #fc8787;
+}
+
+.btn:hover {
+  background: #6cffd3;
+  color: #333;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn-2:hover {
+  background: #ee5e5e;
+}
+
+.wrap-sub-res {
+  margin-bottom: 2.6em;
+}
+
+#about-me {
+  font-size: 1.3em;
+  padding-left: 1.3em;
+}
