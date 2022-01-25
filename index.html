@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>User form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&family=Saira+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" action="#">
+        <fieldset>
+          <legend>Add Personal Information!</legend>
+
+          <div class="wraper">
+            <div class="box">
+              <label for="fname">First name</label><br />
+              <input
+                type="text"
+                id="fname"
+                class="inp-box"
+                placeholder="Allen"
+              /><br />
+            </div>
+
+            <div class="box">
+              <label for="lname">Last name</label><br />
+              <input
+                type="text"
+                id="lname"
+                class="inp-box"
+                placeholder="James"
+              /><br />
+            </div>
+
+            <div class="box">
+              <label for="tel">Telephone</label><br />
+              <input
+                type="tel"
+                id="tel"
+                class="inp-box"
+                placeholder="07422762811"
+              /><br />
+            </div>
+
+            <div class="box">
+              <label for="email">E-mail</label><br />
+              <input
+                type="email"
+                id="email"
+                class="inp-box"
+                placeholder="allen_james@hotmail.com"
+              /><br />
+            </div>
+            <div class="wrap-sub-res">
+              <input type="submit" id="send-form" class="btn" value="SUBMIT" />
+              <input type="reset" class="btn btn-2" value="RESET" />
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>About me:</legend>
+          <p id="about-me"></p>
+        </fieldset>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
